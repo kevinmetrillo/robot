@@ -1,0 +1,9 @@
+*** Settings ***
+Library  Selenium2Library
+
+*** Variables ***
+${URL}  https://www.facebook.com
+${BROWSER}  gc
+
+*** Keywords ***
+  Open Browser  ${URL}  ${BROWSER}
